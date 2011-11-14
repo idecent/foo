@@ -6,9 +6,9 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
   <% if Rails.env == 'production' %>
-    <script src="http://share.lijiping.com/share.js?user_id=123456" type="text/javascript"></script>
+    <script src="http://share.lijiping.com/share.js?uid=123456" type="text/javascript"></script>
   <% else %>
-    <script src="http://localhost:3000/share.js?user_id=123456" type="text/javascript"></script>
+    <script src="http://localhost:3000/share.js?source=点名时间&uid=123456" type="text/javascript"></script>
   <% end %>
 </head>
 <body>
